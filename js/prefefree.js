@@ -1,6 +1,6 @@
 /**
  * StyleFix 1.0.3 & PrefixFree 1.0.7
- * @author Lea Verou
+ * @author carsarmientou
  * MIT license
  */
 
@@ -65,7 +65,7 @@ var self = window.StyleFix = {
 							}
 						});
 
-						// behavior URLs shoudn’t be converted (Issue #19)
+						// behavior URLs shoudnâ€™t be converted (Issue #19)
 						// base should be escaped before added to RegExp (Issue #81)
 						var escaped_base = base.replace(/([\\\^\$*+[\]?{}.=!:(|)])/g,"\\$1");
 						css = css.replace(RegExp('\\b(behavior:\\s*?url\\(\'?"?)' + escaped_base, 'gi'), '$1');
